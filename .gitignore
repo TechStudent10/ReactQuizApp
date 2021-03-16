@@ -1,3 +1,6 @@
-__pycache__/
-utils.py
-views.py
+node_modules/
+venv/
+*.pyc
+.DS_Store
+.env
+.vscode/
