@@ -7,6 +7,7 @@ import {
 
 import Homepage from './Homepage';
 import About from './About';
+import Quiz from './Quiz';
 
 export default function App(props) {
     return (
@@ -15,6 +16,7 @@ export default function App(props) {
                 <Switch>
                     <Route exact path="/" component={Homepage} />
                     <Route path="/about" component={About} />
+                    <Route path="/quiz/:code" component={Quiz} />
                 </Switch>
             </Router>
         </div>

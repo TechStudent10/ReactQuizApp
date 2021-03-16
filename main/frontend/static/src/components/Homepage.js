@@ -18,8 +18,8 @@ export default function Homepage() {
                 <Button variant='contained' color='primary' to='/about' component={Link}>
                     About Page
                 </Button>
-                <Button variant='contained' color='secondary' to='/api' component={Link}>
-                    API Link
+                <Button variant='contained' color='secondary' to='/quiz/python' component={Link}>
+                    Test Quiz (check console for quiz)
                 </Button>
             </ButtonGroup>
         </div>

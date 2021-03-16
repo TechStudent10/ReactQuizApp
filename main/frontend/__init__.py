@@ -9,3 +9,7 @@ def index():
 @frontend.route('/about')
 def about():
     return render_template('index.html')
+
+@frontend.route('/quiz/<code>')
+def quiz(code):
+    return render_template('index.html')
